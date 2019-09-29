@@ -5,70 +5,80 @@
             "name": "BMW Série 1 Hatch",
             "image": "carSerie1.jpg",
             "price": 165950.00,
-            "description": "BMW Série 1, um veículo ágil e compacto com uma aparência esportiva e moderna. Combustível: Gasolina"
+            "description": "BMW Série 1, um veículo ágil e compacto com uma aparência esportiva e moderna.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 2,
             "name": "BMW Série 3 Sedã",
             "image": "carSerie3.jpg",
-            "price": 229950.00,
-            "description": "Nem bem caiu na estrada o novo BMW Série 3 já está deixando tudo para trás, incluindo convenções e expectativas. Impulsionando o verdadeiro sedã esportivo há motores ainda mais potentes e eficientes."
+            "price": 195950.00,
+            "description": "Nem bem caiu na estrada o novo BMW Série 3 já está deixando tudo para trás, incluindo convenções e expectativas. Impulsionando o verdadeiro sedã esportivo há motores ainda mais potentes e eficientes.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 3,
             "name": "BMW Série 4 Cabrio",
             "image": "carSerie4.jpg",
             "price": 320950.00,
-            "description": "Com a capota rígida recolhida ou fechada, o BMW Série 4 Cabrio está pronto para surpreender o mundo. O design esportivo atrai todos os olhares."
+            "description": "Com a capota rígida recolhida ou fechada, o BMW Série 4 Cabrio está pronto para surpreender o mundo. O design esportivo atrai todos os olhares.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 4,
             "name": "BMW Série 5 Sedã",
             "image": "carSerie5.jpg",
             "price": 332950.00,
-            "description": "O BMW Série 5 é a personificação do sedã executivo. Graças à sua imagem dinâmica e elegante, o BMW Série 5 cumpre de forma absolutamente convincente todas as exigências de um veículo da sua categoria: estética esportiva e Prazer de Dirigir com tecnologia de ponta."
+            "description": "O BMW Série 5 é a personificação do sedã executivo. Graças à sua imagem dinâmica e elegante, o BMW Série 5 cumpre de forma absolutamente convincente todas as exigências de um veículo da sua categoria: estética esportiva e Prazer de Dirigir com tecnologia de ponta.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 5,
             "name": "BMW Série 7 Sedã",
             "image": "carSerie7.jpg",
             "price": 774950.00,
-            "description": "Com o novo BMW Série 7 criamos a próxima geração do luxo, fruto de inovações pioneiras, conforto, design contemporâneo e uma dinâmica altamente eficiente."
+            "description": "Com o novo BMW Série 7 criamos a próxima geração do luxo, fruto de inovações pioneiras, conforto, design contemporâneo e uma dinâmica altamente eficiente.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 6,
             "name": "BMW X1",
             "image": "carX1.jpg",
             "price": 191950.00,
-            "description": "O BMW X1 vai além das soluções rotineiras. Desde o primeiro olhar fica claro que este é um modelo X de alma e coração: os para-choques compactos e a longa distância entre eixos típicos de um SAV (Sports Activity Vehicle) definem o exterior."
+            "description": "O BMW X1 vai além das soluções rotineiras. Desde o primeiro olhar fica claro que este é um modelo X de alma e coração: os para-choques compactos e a longa distância entre eixos típicos de um SAV (Sports Activity Vehicle) definem o exterior.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 7,
             "name": "BMW X6",
             "image": "carX6.jpg",
             "price": 473950.00,
-            "description": "Potente e claramente esportivo. O BMW X6 transcende todos os limites, apresentando a presença típica dos modelos BMW X e a esportividade dos coupés."
+            "description": "Potente e claramente esportivo. O BMW X6 transcende todos os limites, apresentando a presença típica dos modelos BMW X e a esportividade dos coupés.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 8,
             "name": "BMW M5",
             "image": "carM5.jpg",
             "price": 699950.00,
-            "description": "Criado para oferecer emoção e elegância. Mais potente do que nunca. A nova geração do BMW M5 é a afirmação da suprema excelência da engenharia e da condução inovadora e inteligente para o levar a uma dimensão inimaginável. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável."
+            "description": "Criado para oferecer emoção e elegância. Mais potente do que nunca. A nova geração do BMW M5 é a afirmação da suprema excelência da engenharia e da condução inovadora e inteligente para o levar a uma dimensão inimaginável. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável.",
+            "fuelType": "Elétrico"
         },
         {
             "id": 9,
             "name": "BMW i3",
             "image": "carI3.jpg",
             "price": 205950.00,
-            "description": "O BMW i3 está repleto de tecnologias inovadoras para sua mobilidade cotidiana com toda a segurança e eficiência. A bateria do novo BMW i3 REX permite uma autonomia de até 180km (385km no ciclo NEDC) para você explorar novos caminhos dentro da cidade com estilo."
+            "description": "O BMW i3 está repleto de tecnologias inovadoras para sua mobilidade cotidiana com toda a segurança e eficiência. A bateria do novo BMW i3 REX permite uma autonomia de até 180km (385km no ciclo NEDC) para você explorar novos caminhos dentro da cidade com estilo.",
+            "fuelType": "Elétrico"
         },
         {
             "id": 10,
             "name": "BMW i8",
             "image": "carI8.jpg",
             "price": 649950.00,
-            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Mais sustentável devido à tecnologia BMW eDrive extremamente eficiente e aos materiais recicláveis presentes no interior, sem comprometer a dinâmica e a aparência esportiva. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade."
+            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Mais sustentável devido à tecnologia BMW eDrive extremamente eficiente e aos materiais recicláveis presentes no interior, sem comprometer a dinâmica e a aparência esportiva. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade.",
+            "fuelType": "Híbrido"
         }
     ],
     "versions" : [
@@ -76,154 +86,154 @@
             "id":1,
             "idModel":1,
             "name": "BMW 120i Sport 18/19",
-            "price": "",
+            "price": 165950.00,
             "description": "Transmissão automática - 135 cv"
         },
         {
             "id":2,
             "idModel":1,
             "name": "BMW 120i Sport GP 18/19",
-            "price": "",
+            "price": 176950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
         },
         {
             "id":3,
             "idModel":1,
             "name": "BMW 125i M Sport 18/19",
-            "price": "",
+            "price": 196950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 165 cv"
         },
         {
             "id":4,
             "idModel":1,
             "name": "BMW M140i - 18/19",
-            "price": "",
+            "price": 275950.00,
             "description": "Transmissão automática esportiva com shift paddle - 253 cv"
         },
         {
             "id":5,
             "idModel":2,
             "name": "BMW 320i M Sport Plus ActiveFlex - 18/18",
-            "price": "",
+            "price": 195950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
         },
         {
             "id":6,
             "idModel":2,
             "name": "BMW 320i Sport GP Plus ActiveFlex - 18/18",
-            "price": "",
+            "price": 204950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
         },
         {
             "id":7,
             "idModel":2,
             "name": "BMW 320i Sport Plus ActiveFlex - 18/18",
-            "price": "",
+            "price": 204950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
         },
         {
             "id":8,
             "idModel":2,
             "name": "BMW 328i M Sport ActiveFlex - 18/18",
-            "price": "",
+            "price": 269950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 180 cv"
         },
         {
             "id":9,
             "idModel":3,
             "name": "BMW 430i Cabrio Sport - 18/18",
-            "price": "",
+            "price": 320950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 185 cv"
         },
         {
             "id":10,
             "idModel":4,
             "name": "BMW 530i M Sport - 18/18",
-            "price": "",
+            "price": 332950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 185 cv"
         },
         {
             "id":11,
             "idModel":4,
             "name": "BMW 540i M Sport - 18/18",
-            "price": "",
+            "price": 422950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 253 cv"
         },
         {
             "id":12,
             "idModel":5,
             "name": "BMW 750Li M Sport - 18/18",
-            "price": "",
+            "price": 774950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 335 cv"
         },
         {
             "id":13,
             "idModel":5,
             "name": "BMW 750Li Pure Excellence - 18/18",
-            "price": "",
+            "price": 794950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 335 cv"
         },
         {
             "id":14,
             "idModel":6,
             "name": "BMW X1 sDrive20i GP ActiveFlex - 18/18",
-            "price": "",
+            "price": 191950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 143 cv"
         },
         {
             "id":15,
             "idModel":6,
             "name": "BMW X1 sDrive20i X-Line ActiveFlex - 18/18",
-            "price": "",
+            "price": 208950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 143 cv"
         },
         {
             "id":16,
             "idModel":6,
             "name": "BMW X1 xDrive25i Sport - 18/18",
-            "price": "",
+            "price": 232950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 172 cv"
         },
         {
             "id":17,
             "idModel":7,
             "name": "BMW X6 xDrive35i - 18/19",
-            "price": "",
+            "price": 473950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 228 cv"
         },
         {
             "id":18,
             "idModel":8,
             "name": "BMW M5 - 18/19",
-            "price": "",
+            "price": 699950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 441 cv"
         },
         {
             "id":19,
             "idModel":8,
             "name": "BMW M5 Performance Pack - 18/19",
-            "price": "",
+            "price": 719950.00,
             "description": "Transmissão automática esportiva com Shift Paddle - 441 cv"
         },
         {
             "id":20,
             "idModel":9,
             "name": "BMW i3 REX Entry",
-            "price": "",
+            "price": 205950.00,
             "description": "Transmissão automática - 125 cv"
         },
         {
             "id":21,
             "idModel":9,
             "name": "BMW i3 REX Full",
-            "price": "",
+            "price": 235950.00,
             "description": "Transmissão automática - 125 cv"
         },
         {
             "id":22,
             "idModel":10,
             "name": "BMW i8",
-            "price": "",
+            "price": 649950.00,
             "description": "Transmissão automática - 266 cv"
         }
     ],
@@ -235,7 +245,8 @@
             ],
             "name": "Branco Alpino",
             "category": "Sólida",
-            "image": "corBrancoAlpino.jpg"
+            "image": "corBrancoAlpino.jpg",
+            "price": 0.00
         },
         {
             "id":2,
@@ -244,7 +255,8 @@
             ],
             "name": "Preto II",
             "category": "Sólida",
-            "image": "corPretoII.jpg"
+            "image": "corPretoII.jpg",
+            "price": 0.00
         },
         {
             "id":3,
@@ -253,7 +265,8 @@
             ],
             "name": "Cinza Mineral",
             "category": "Metálica",
-            "image": "corCinzaMineral.jpg"
+            "image": "corCinzaMineral.jpg",
+            "price": 3000.00
         },
         {
             "id":4,
@@ -262,7 +275,8 @@
             ],
             "name": "Azul Estoril",
             "category": "Metálica",
-            "image": "corAzulEstoril.jpg"
+            "image": "corAzulEstoril.jpg",
+            "price": 3500.00
         },
         {
             "id":5,
@@ -271,7 +285,8 @@
             ],
             "name": "Preto Safira",
             "category": "Metálica",
-            "image": "corPretoSafira.jpg"
+            "image": "corPretoSafira.jpg",
+            "price": 3000.00
         },
         {
             "id":6,
@@ -280,7 +295,8 @@
             ],
             "name": "Prata Glacier",
             "category": "Metálica",
-            "image": "corPrataGlacier.jfif"
+            "image": "corPrataGlacier.jfif",
+            "price": 4000.00
         },
         {
             "id":7,
@@ -289,7 +305,8 @@
             ],
             "name": "Vermelho Melbourne",
             "category": "Metálica",
-            "image": "corVermelhoMelbourne.jfif"
+            "image": "corVermelhoMelbourne.jfif",
+            "price": 5000.00
         },
         {
             "id":8,
@@ -298,7 +315,8 @@
             ],
             "name": "Azul Imperial",
             "category": "Metálica",
-            "image": "corAzulImperial.jfif"
+            "image": "corAzulImperial.jfif",
+            "price": 4000.00
         },
         {
             "id":9,
@@ -307,7 +325,8 @@
             ],
             "name": "Branco Mineral",
             "category": "Metálica",
-            "image": "corBrancoMineral.jfif"
+            "image": "corBrancoMineral.jfif",
+            "price": 3000.00
         },
         {
             "id":10,
@@ -316,7 +335,8 @@
             ],
             "name": "Snapper Rocks Blue",
             "category": "Metálica",
-            "image": "corSnapperRocksBlue.jpg"
+            "image": "corSnapperRocksBlue.jpg",
+            "price": 3500.00
         },
         {
             "id":11,
@@ -325,7 +345,8 @@
             ],
             "name": "Bluestone",
             "category": "Metálica",
-            "image": "corBluestone.jfif"
+            "image": "corBluestone.jfif",
+            "price": 4000.00
         },
         {
             "id":12,
@@ -334,7 +355,8 @@
             ],
             "name": "Preto Carbono",
             "category": "Metálica",
-            "image": "corPretoCarbono.jfif"
+            "image": "corPretoCarbono.jfif",
+            "price": 3000.00
         },
         {
             "id":13,
@@ -343,7 +365,8 @@
             ],
             "name": "Cinza Sophisto",
             "category": "Metálica",
-            "image": "corCinzaSophisto.jfif"
+            "image": "corCinzaSophisto.jfif",
+            "price": 3500.00
         },
         {
             "id":14,
@@ -352,7 +375,8 @@
             ],
             "name": "Azul Mediterrâneo",
             "category": "Metálica",
-            "image": "corCinzaSophisto.jfif"
+            "image": "corCinzaSophisto.jfif",
+            "price": 4000.00
         },
         {
             "id":15,
@@ -361,7 +385,8 @@
             ],
             "name": "Cinza Cingapura",
             "category": "Metálica",
-            "image": "corCinzaCingapura.jfif"
+            "image": "corCinzaCingapura.jfif",
+            "price": 4500.00
         },
         {
             "id":16,
@@ -370,7 +395,8 @@
             ],
             "name": "Prata Kashmir",
             "category": "Metálica",
-            "image": "corPrataKashmir.jfif"
+            "image": "corPrataKashmir.jfif",
+            "price": 5000.00
         },
         {
             "id":17,
@@ -379,7 +405,8 @@
             ],
             "name": "Jatoba",
             "category": "Metálica",
-            "image": "corJatoba.jfif"
+            "image": "corJatoba.jfif",
+            "price": 6000.00
         },
         {
             "id":18,
@@ -388,7 +415,8 @@
             ],
             "name": "Cinza Magellan",
             "category": "Metálica",
-            "image": "corCinzaMagellan.jfif"
+            "image": "corCinzaMagellan.jfif",
+            "price": 6000.00
         },
         {
             "id":19,
@@ -397,7 +425,8 @@
             ],
             "name": "Cinza Ártico",
             "category": "Metálica",
-            "image": "corCinzaArtico.jfif"
+            "image": "corCinzaArtico.jfif",
+            "price": 5000.00
         },
         {
             "id":20,
@@ -406,7 +435,8 @@
             ],
             "name": "Cedro de Atlas",
             "category": "Metálica",
-            "image": "corCedroAtlas.jfif"
+            "image": "corCedroAtlas.jfif",
+            "price": 6000.00
         },
         {
             "id":21,
@@ -415,7 +445,8 @@
             ],
             "name": "Pure Metal Silver",
             "category": "Metálica",
-            "image": "corPureMetalSilver.jfif"
+            "image": "corPureMetalSilver.jfif",
+            "price": 5000.00
         },
         {
             "id":22,
@@ -424,7 +455,8 @@
             ],
             "name": "Preto Azurite",
             "category": "Metálica",
-            "image": "corPretoAzurite.jfif"
+            "image": "corPretoAzurite.jfif",
+            "price": 5000.00
         },
         {
             "id":23,
@@ -433,7 +465,8 @@
             ],
             "name": "Branco Brilhante",
             "category": "Metálica",
-            "image": "corBrancoBrilhante.jfif"
+            "image": "corBrancoBrilhante.jfif",
+            "price": 4000.00
         },
         {
             "id":24,
@@ -442,7 +475,8 @@
             ],
             "name": "Preto Rubi",
             "category": "Metálica",
-            "image": "corPretoRubi.jfif"
+            "image": "corPretoRubi.jfif",
+            "price": 4000.00
         },
         {
             "id":25,
@@ -451,7 +485,8 @@
             ],
             "name": "Moonstone",
             "category": "Metálica",
-            "image": "corMoonstone.jfif"
+            "image": "corMoonstone.jfif",
+            "price": 5000.00
         },
         {
             "id":26,
@@ -460,7 +495,8 @@
             ],
             "name": "Marrom Almadin",
             "category": "Metálica",
-            "image": "corMarromAlmadin.jfif"
+            "image": "corMarromAlmadin.jfif",
+            "price": 6000.00
         },
         {
             "id":27,
@@ -469,7 +505,8 @@
             ],
             "name": "Vermelho Aventurine",
             "category": "Metálica",
-            "image": "corVermelhoAventurine.jfif"
+            "image": "corVermelhoAventurine.jfif",
+            "price": 6500.00
         },
         {
             "id":28,
@@ -478,7 +515,8 @@
             ],
             "name": "Frozen Dark Brown",
             "category": "BMW Individual",
-            "image": "corFrozenDarkBrown.jfif"
+            "image": "corFrozenDarkBrown.jfif",
+            "price": 7000.00
         },
         {
             "id":29,
@@ -487,7 +525,8 @@
             ],
             "name": "Frozen Arctic Grey",
             "category": "BMW Individual",
-            "image": "corFrozenArcticGrey.jfif"
+            "image": "corFrozenArcticGrey.jfif",
+            "price": 7000.00
         },
         {
             "id":30,
@@ -496,7 +535,8 @@
             ],
             "name": "Cinza Space",
             "category": "Metálica",
-            "image": "corCinzaSpace.jfif"
+            "image": "corCinzaSpace.jfif",
+            "price": 4000.00
         },
         {
             "id":31,
@@ -505,7 +545,8 @@
             ],
             "name": "Vermelho Flamenco",
             "category": "Metálica",
-            "image": "corVermelhoFlamenco.jfif"
+            "image": "corVermelhoFlamenco.jfif",
+            "price": 6000.00
         },
         {
             "id":32,
@@ -514,7 +555,8 @@
             ],
             "name": "Azul Marina Bay",
             "category": "Metálica",
-            "image": "corAzulMarinaBay.jfif"
+            "image": "corAzulMarinaBay.jfif",
+            "price": 6000.00
         },
         {
             "id":33,
@@ -523,7 +565,8 @@
             ],
             "name": "Cinza Donington",
             "category": "Metálica",
-            "image": "corCinzaDonington.jfif"
+            "image": "corCinzaDonington.jfif",
+            "price": 5000.00
         },
         {
             "id":34,
@@ -532,7 +575,8 @@
             ],
             "name": "Branco Capparis com detalhes em BMW i Blue",
             "category": "Sólida",
-            "image": "corBrancoCapparis.jfif"
+            "image": "corBrancoCapparis.jfif",
+            "price": 5000.00
         },
         {
             "id":35,
@@ -541,7 +585,8 @@
             ],
             "name": "Prata Ionic com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corPrataIonic.jfif"
+            "image": "corPrataIonic.jfif",
+            "price": 5000.00
         },
         {
             "id":36,
@@ -550,7 +595,8 @@
             ],
             "name": "Cinza Arravani com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corCinzaArravani.jfif"
+            "image": "corCinzaArravani.jfif",
+            "price": 6000.00
         },
         {
             "id":37,
@@ -559,7 +605,8 @@
             ],
             "name": "Cinza Laurus com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corCinzaLaurus.jfif"
+            "image": "corCinzaLaurus.jfif",
+            "price": 6000.00
         },
         {
             "id":38,
@@ -568,7 +615,8 @@
             ],
             "name": "Prata Andesit com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corPrataAndesit.jfif"
+            "image": "corPrataAndesit.jfif",
+            "price": 5000.00
         },
         {
             "id":39,
@@ -577,7 +625,8 @@
             ],
             "name": "Branco Krystal com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corBrancoKrystal.jfif"
+            "image": "corBrancoKrystal.jfif",
+            "price": 6000.00
         },
         {
             "id":40,
@@ -586,69 +635,70 @@
             ],
             "name": "Cinza Sophisto com detalhes em BMW i Blue",
             "category": "Metálica",
-            "image": "corCinzaSophistoIblue.jfif"
+            "image": "corCinzaSophistoIblue.jfif",
+            "price": 6500.00
         }
     ],
     "optionals" : [
         {
             "id":1,
             "idsVersions":[
-                1, 2
+                1, 2, 6, 7, 9, 14, 15, 16
             ],
             "name": "Volante esportivo em couro",
             "category": "Conforto",
             "image": "optVolanteCouro.jfif",
-            "price": ""
+            "price": 7500.00
         },
         {
             "id":2,
             "idsVersions":[
-                1, 2, 3, 4, 20, 21
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21
             ],
             "name": "Tapetes em veludo",
             "category": "Conforto",
             "image": "optTapetesVeludo.jfif",
-            "price": ""
+            "price": 4000.00
         },
         {
             "id":3,
             "idsVersions":[
-                1, 2, 3, 4
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
             ],
             "name": "Bancos dianteiros esportivos",
             "category": "Conforto",
             "image": "optBancosDiantEsportivos.jfif",
-            "price": ""
+            "price": 8900.00
         },
         {
             "id":4,
             "idsVersions":[
-                1, 2, 3, 4
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17
             ],
             "name": "Pacote de luzes de conveniência",
             "category": "Conforto",
             "image": "optPctLuzesConv.jfif",
-            "price": ""
+            "price": 8800.00
         },
         {
             "id":5,
             "idsVersions":[
-                1, 2, 3, 4
+                1, 2, 3, 4, 5, 6, 7
             ],
             "name": "Conexão wireless para Bluetooth e interface USB",
             "category": "Conectividade",
             "image": "optConoBluetoothUSB.jpg",
-            "price": ""
+            "price": 6000.00
         },
         {
             "id":6,
             "idsVersions":[
-                1, 2
+                1, 2, 14, 15, 16
             ],
             "name": "CD-Player",
             "category": "Sistema de som",
             "image": "optCdPlayer.jfif",
-            "price": ""
+            "price": 3000.00
         },
         {
             "id":7,
@@ -658,137 +708,237 @@
             "name": "BMW Professional",
             "category": "Sistema de som",
             "image": "optBMWProfessional.jfif",
-            "price": ""
+            "price": 4500.00
         },
         {
             "id":8,
             "idsVersions":[
-                1, 2, 3, 4, 20, 21, 22
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
             ],
             "name": "Segredo de roda",
             "category": "Segurança",
             "image": "optSegredoRoda.jfif",
-            "price": ""
+            "price": 1500.00
         },
         {
             "id":9,
             "idsVersions":[
-                1, 2, 3, 4, 20, 21, 22
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
             ],
             "name": "Alarme",
             "category": "Segurança",
             "image": "optAlarme.jfif",
-            "price": ""
+            "price": 2500.00
         },
         {
             "id":10,
             "idsVersions":[
-                1, 2, 3, 4
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16
             ],
             "name": "Pneus BMW Star Marking com tecnologia Run-Flat",
             "category": "Tecnologia",
             "image": "optPneusStarMarking.jfif",
-            "price": ""
+            "price": 9000.00
         },
         {
             "id":11,
             "idsVersions":[
-                1, 2, 3
+                1, 2, 3, 7, 9, 14, 15, 16
             ],
             "name": "Sensor de estacionamento traseiro",
             "category": "Tecnologia",
             "image": "optSensorEstacionamentoTraseiro.jfif",
-            "price": ""
+            "price": 10500.00
         },
         {
             "id":12,
             "idsVersions":[
-                1, 2, 3, 4, 20, 21, 22
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 20, 21, 22
             ],
             "name": "Controle de cruzeiro",
             "category": "Tecnologia",
             "image": "optControleCruzeiro.jfif",
-            "price": ""
+            "price": 9900.00
         },
         {
             "id":13,
             "idsVersions":[
-                1, 2, 3
+                1, 2, 3, 9, 10, 11, 12, 13, 14, 15, 16
             ],
             "name": "Faróis de neblina em LED",
             "category": "Tecnologia",
             "image": "optFaroisNeblinaLED.jfif",
-            "price": ""
+            "price": 7500.00
         },
         {
             "id":14,
             "idsVersions":[
-                1, 2, 3
+                1, 2, 3, 5, 6, 7
             ],
             "name": "Faróis em LED",
             "category": "Tecnologia",
             "image": "optFaroisLED.jfif",
-            "price": ""
+            "price": 7000.00
         },
         {
             "id":15,
             "idsVersions":[
-                1, 2, 3, 4, 20, 21, 22
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
             ],
             "name": "Kit de reparo de pneus",
             "category": "Segurança",
             "image": "optKitReparoPneus.jfif",
-            "price": ""
+            "price": 2000.00
         },
         {
             "id":16,
             "idsVersions":[
-                2, 3, 4
+                2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 18, 19
             ],
             "name": "Câmera de ré",
             "category": "Tecnologia",
             "image": "optCameraRe.jfif",
-            "price": ""
+            "price": 12000.00
         },
         {
             "id":17,
             "idsVersions":[
-                3, 4, 20, 21, 22
+                3, 4, 8, 9, 11, 17, 18, 19, 20, 21, 22
             ],
             "name": "Sistema de som Harman Kardon",
             "category": "Sistema de som",
             "image": "optSomHarmanKardon.jfif",
-            "price": ""
+            "price": 17500.00
         },
         {
             "id":18,
             "idsVersions":[
-                2, 3, 4, 20, 21, 22
+                2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
             ],
             "name": "Sistema de Navegação Professional",
             "category": "Conectividade",
             "image": "optSistemaNavegacaoProf.jfif",
-            "price": ""
+            "price": 9500.00
         },
         {
             "id":19,
             "idsVersions":[
-                3, 4, 22
+                3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 22
             ],
             "name": "Bancos dianteiros com ajustes elétricos",
             "category": "Conforto",
             "image": "optBancosDianteirosAjustesEl.jfif",
-            "price": ""
+            "price": 7500.00
         },
         {
             "id":20,
             "idsVersions":[
-                3, 4, 20, 21, 22
+                3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
             ],
             "name": "BMW TeleServices",
             "category": "Conectividade",
             "image": "optBMWTeleServices.jfif",
-            "price": ""
+            "price": 8000.00
+        },
+        {
+            "id":21,
+            "idsVersions":[
+                5, 6, 8, 12, 13, 17, 18, 19, 21, 22
+            ],
+            "name": "Sensor de estacionamento dianteiro e traseiro",
+            "category": "Tecnologia",
+            "image": "optSensorEestacionamentoDianteiroTraseiro.jfif",
+            "price": 15000.00
+        },
+        {
+            "id":22,
+            "idsVersions":[
+                1, 2, 3, 4, 8, 9, 14, 15, 16,20, 21, 22
+            ],
+            "name": "Teclas multi-funções no volante",
+            "category": "Conforto",
+            "image": "optTeclasVolante.jfif",
+            "price": 8000.00
+        },
+        {
+            "id":23,
+            "idsVersions":[
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
+            ],
+            "name": "Kit de primeiros socorros",
+            "category": "Segurança",
+            "image": "optKitPrimeirosSocorros.jfif",
+            "price": 1500.00
+        },
+        {
+            "id":24,
+            "idsVersions":[
+                5, 6, 9, 12, 13, 16
+            ],
+            "name": "Sistema de Som HiFi",
+            "category": "Sistema de som",
+            "image": "optSistemaSomHiFi.jfif",
+            "price": 8000.00
+        },
+        {
+            "id":25,
+            "idsVersions":[
+                5, 6, 7, 8, 9, 10, 14, 15, 16, 18, 19
+            ],
+            "name": "Sensor de chuva, com acionamento automático dos faróis baixos",
+            "category": "Tecnologia",
+            "image": "optSensorChuva.jfif",
+            "price": 9500.00
+        },
+        {
+            "id":26,
+            "idsVersions":[
+                5, 8
+            ],
+            "name": "Direção esportiva variável",
+            "category": "Tecnologia",
+            "image": "optDireçãoEsportivaVar.jfif",
+            "price": 10500.00
+        },
+        {
+            "id":27,
+            "idsVersions":[
+                5, 6, 7, 8, 9, 10, 11, 14, 15, 16, 18, 19
+            ],
+            "name": "Ar condicionado automático digital",
+            "category": "Conforto",
+            "image": "optArCondicionadoAuto.jfif",
+            "price": 8000.00
+        },
+        {
+            "id":28,
+            "idsVersions":[
+                9, 12, 13
+            ],
+            "name": "Painel de instrumentos com conteúdo estendido",
+            "category": "Tecnologia",
+            "image": "optPainelInstrumentosEstendido.jfif",
+            "price": 7500.00
+        },
+        {
+            "id":29,
+            "idsVersions":[
+                10, 11, 12, 13, 18, 19
+            ],
+            "name": "Assistente de estacionamento",
+            "category": "Tecnologia",
+            "image": "optAssistenteEstacionamento.jfif",
+            "price": 13500.00
+        },
+        {
+            "id":30,
+            "idsVersions":[
+                12, 13, 17
+            ],
+            "name": "Sistema de limpeza dos faróis",
+            "category": "Segurança",
+            "image": "optSistemaLimpezaFarois.jfif",
+            "price": 9500.00
         }
     ]
 }
