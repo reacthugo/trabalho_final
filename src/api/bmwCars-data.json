@@ -1,0 +1,794 @@
+{
+    "models" : [
+        {
+            "id": 1,
+            "name": "BMW Série 1 Hatch",
+            "image": "carSerie1.jpg",
+            "price": 165950.00,
+            "description": "BMW Série 1, um veículo ágil e compacto com uma aparência esportiva e moderna. Combustível: Gasolina"
+        },
+        {
+            "id": 2,
+            "name": "BMW Série 3 Sedã",
+            "image": "carSerie3.jpg",
+            "price": 229950.00,
+            "description": "Nem bem caiu na estrada o novo BMW Série 3 já está deixando tudo para trás, incluindo convenções e expectativas. Impulsionando o verdadeiro sedã esportivo há motores ainda mais potentes e eficientes."
+        },
+        {
+            "id": 3,
+            "name": "BMW Série 4 Cabrio",
+            "image": "carSerie4.jpg",
+            "price": 320950.00,
+            "description": "Com a capota rígida recolhida ou fechada, o BMW Série 4 Cabrio está pronto para surpreender o mundo. O design esportivo atrai todos os olhares."
+        },
+        {
+            "id": 4,
+            "name": "BMW Série 5 Sedã",
+            "image": "carSerie5.jpg",
+            "price": 332950.00,
+            "description": "O BMW Série 5 é a personificação do sedã executivo. Graças à sua imagem dinâmica e elegante, o BMW Série 5 cumpre de forma absolutamente convincente todas as exigências de um veículo da sua categoria: estética esportiva e Prazer de Dirigir com tecnologia de ponta."
+        },
+        {
+            "id": 5,
+            "name": "BMW Série 7 Sedã",
+            "image": "carSerie7.jpg",
+            "price": 774950.00,
+            "description": "Com o novo BMW Série 7 criamos a próxima geração do luxo, fruto de inovações pioneiras, conforto, design contemporâneo e uma dinâmica altamente eficiente."
+        },
+        {
+            "id": 6,
+            "name": "BMW X1",
+            "image": "carX1.jpg",
+            "price": 191950.00,
+            "description": "O BMW X1 vai além das soluções rotineiras. Desde o primeiro olhar fica claro que este é um modelo X de alma e coração: os para-choques compactos e a longa distância entre eixos típicos de um SAV (Sports Activity Vehicle) definem o exterior."
+        },
+        {
+            "id": 7,
+            "name": "BMW X6",
+            "image": "carX6.jpg",
+            "price": 473950.00,
+            "description": "Potente e claramente esportivo. O BMW X6 transcende todos os limites, apresentando a presença típica dos modelos BMW X e a esportividade dos coupés."
+        },
+        {
+            "id": 8,
+            "name": "BMW M5",
+            "image": "carM5.jpg",
+            "price": 699950.00,
+            "description": "Criado para oferecer emoção e elegância. Mais potente do que nunca. A nova geração do BMW M5 é a afirmação da suprema excelência da engenharia e da condução inovadora e inteligente para o levar a uma dimensão inimaginável. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável."
+        },
+        {
+            "id": 9,
+            "name": "BMW i3",
+            "image": "carI3.jpg",
+            "price": 205950.00,
+            "description": "O BMW i3 está repleto de tecnologias inovadoras para sua mobilidade cotidiana com toda a segurança e eficiência. A bateria do novo BMW i3 REX permite uma autonomia de até 180km (385km no ciclo NEDC) para você explorar novos caminhos dentro da cidade com estilo."
+        },
+        {
+            "id": 10,
+            "name": "BMW i8",
+            "image": "carI8.jpg",
+            "price": 649950.00,
+            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Mais sustentável devido à tecnologia BMW eDrive extremamente eficiente e aos materiais recicláveis presentes no interior, sem comprometer a dinâmica e a aparência esportiva. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade."
+        }
+    ],
+    "versions" : [
+        {
+            "id":1,
+            "idModel":1,
+            "name": "BMW 120i Sport 18/19",
+            "price": "",
+            "description": "Transmissão automática - 135 cv"
+        },
+        {
+            "id":2,
+            "idModel":1,
+            "name": "BMW 120i Sport GP 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
+        },
+        {
+            "id":3,
+            "idModel":1,
+            "name": "BMW 125i M Sport 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 165 cv"
+        },
+        {
+            "id":4,
+            "idModel":1,
+            "name": "BMW M140i - 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com shift paddle - 253 cv"
+        },
+        {
+            "id":5,
+            "idModel":2,
+            "name": "BMW 320i M Sport Plus ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
+        },
+        {
+            "id":6,
+            "idModel":2,
+            "name": "BMW 320i Sport GP Plus ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
+        },
+        {
+            "id":7,
+            "idModel":2,
+            "name": "BMW 320i Sport Plus ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 135 cv"
+        },
+        {
+            "id":8,
+            "idModel":2,
+            "name": "BMW 328i M Sport ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 180 cv"
+        },
+        {
+            "id":9,
+            "idModel":3,
+            "name": "BMW 430i Cabrio Sport - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 185 cv"
+        },
+        {
+            "id":10,
+            "idModel":4,
+            "name": "BMW 530i M Sport - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 185 cv"
+        },
+        {
+            "id":11,
+            "idModel":4,
+            "name": "BMW 540i M Sport - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 253 cv"
+        },
+        {
+            "id":12,
+            "idModel":5,
+            "name": "BMW 750Li M Sport - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 335 cv"
+        },
+        {
+            "id":13,
+            "idModel":5,
+            "name": "BMW 750Li Pure Excellence - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 335 cv"
+        },
+        {
+            "id":14,
+            "idModel":6,
+            "name": "BMW X1 sDrive20i GP ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 143 cv"
+        },
+        {
+            "id":15,
+            "idModel":6,
+            "name": "BMW X1 sDrive20i X-Line ActiveFlex - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 143 cv"
+        },
+        {
+            "id":16,
+            "idModel":6,
+            "name": "BMW X1 xDrive25i Sport - 18/18",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 172 cv"
+        },
+        {
+            "id":17,
+            "idModel":7,
+            "name": "BMW X6 xDrive35i - 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 228 cv"
+        },
+        {
+            "id":18,
+            "idModel":8,
+            "name": "BMW M5 - 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 441 cv"
+        },
+        {
+            "id":19,
+            "idModel":8,
+            "name": "BMW M5 Performance Pack - 18/19",
+            "price": "",
+            "description": "Transmissão automática esportiva com Shift Paddle - 441 cv"
+        },
+        {
+            "id":20,
+            "idModel":9,
+            "name": "BMW i3 REX Entry",
+            "price": "",
+            "description": "Transmissão automática - 125 cv"
+        },
+        {
+            "id":21,
+            "idModel":9,
+            "name": "BMW i3 REX Full",
+            "price": "",
+            "description": "Transmissão automática - 125 cv"
+        },
+        {
+            "id":22,
+            "idModel":10,
+            "name": "BMW i8",
+            "price": "",
+            "description": "Transmissão automática - 266 cv"
+        }
+    ],
+    "colors" : [
+        {
+            "id":1,
+            "idsVersions":[
+                1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19
+            ],
+            "name": "Branco Alpino",
+            "category": "Sólida",
+            "image": "corBrancoAlpino.jpg"
+        },
+        {
+            "id":2,
+            "idsVersions":[
+                1, 2, 6, 7, 13, 14, 15, 16
+            ],
+            "name": "Preto II",
+            "category": "Sólida",
+            "image": "corPretoII.jpg"
+        },
+        {
+            "id":3,
+            "idsVersions":[
+                1, 2, 3, 5, 6, 7, 8, 9, 14, 15, 16
+            ],
+            "name": "Cinza Mineral",
+            "category": "Metálica",
+            "image": "corCinzaMineral.jpg"
+        },
+        {
+            "id":4,
+            "idsVersions":[
+                3, 4
+            ],
+            "name": "Azul Estoril",
+            "category": "Metálica",
+            "image": "corAzulEstoril.jpg"
+        },
+        {
+            "id":5,
+            "idsVersions":[
+                3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19
+            ],
+            "name": "Preto Safira",
+            "category": "Metálica",
+            "image": "corPretoSafira.jpg"
+        },
+        {
+            "id":6,
+            "idsVersions":[
+                5, 6, 7, 8, 9, 13, 14, 15, 16
+            ],
+            "name": "Prata Glacier",
+            "category": "Metálica",
+            "image": "corPrataGlacier.jfif"
+        },
+        {
+            "id":7,
+            "idsVersions":[
+                9
+            ],
+            "name": "Vermelho Melbourne",
+            "category": "Metálica",
+            "image": "corVermelhoMelbourne.jfif"
+        },
+        {
+            "id":8,
+            "idsVersions":[
+                9, 13
+            ],
+            "name": "Azul Imperial",
+            "category": "Metálica",
+            "image": "corAzulImperial.jfif"
+        },
+        {
+            "id":9,
+            "idsVersions":[
+                9, 12, 13, 17
+            ],
+            "name": "Branco Mineral",
+            "category": "Metálica",
+            "image": "corBrancoMineral.jfif"
+        },
+        {
+            "id":10,
+            "idsVersions":[
+                9, 18, 19
+            ],
+            "name": "Snapper Rocks Blue",
+            "category": "Metálica",
+            "image": "corSnapperRocksBlue.jpg"
+        },
+        {
+            "id":11,
+            "idsVersions":[
+                10, 11, 18, 19
+            ],
+            "name": "Bluestone",
+            "category": "Metálica",
+            "image": "corBluestone.jfif"
+        },
+        {
+            "id":12,
+            "idsVersions":[
+                10, 11, 12
+            ],
+            "name": "Preto Carbono",
+            "category": "Metálica",
+            "image": "corPretoCarbono.jfif"
+        },
+        {
+            "id":13,
+            "idsVersions":[
+                10, 11, 13, 17
+            ],
+            "name": "Cinza Sophisto",
+            "category": "Metálica",
+            "image": "corCinzaSophisto.jfif"
+        },
+        {
+            "id":14,
+            "idsVersions":[
+                10, 11
+            ],
+            "name": "Azul Mediterrâneo",
+            "category": "Metálica",
+            "image": "corCinzaSophisto.jfif"
+        },
+        {
+            "id":15,
+            "idsVersions":[
+                12, 18, 19
+            ],
+            "name": "Cinza Cingapura",
+            "category": "Metálica",
+            "image": "corCinzaCingapura.jfif"
+        },
+        {
+            "id":16,
+            "idsVersions":[
+                13
+            ],
+            "name": "Prata Kashmir",
+            "category": "Metálica",
+            "image": "corPrataKashmir.jfif"
+        },
+        {
+            "id":17,
+            "idsVersions":[
+                13
+            ],
+            "name": "Jatoba",
+            "category": "Metálica",
+            "image": "corJatoba.jfif"
+        },
+        {
+            "id":18,
+            "idsVersions":[
+                13
+            ],
+            "name": "Cinza Magellan",
+            "category": "Metálica",
+            "image": "corCinzaMagellan.jfif"
+        },
+        {
+            "id":19,
+            "idsVersions":[
+                13
+            ],
+            "name": "Cinza Ártico",
+            "category": "Metálica",
+            "image": "corCinzaArtico.jfif"
+        },
+        {
+            "id":20,
+            "idsVersions":[
+                13
+            ],
+            "name": "Cedro de Atlas",
+            "category": "Metálica",
+            "image": "corCedroAtlas.jfif"
+        },
+        {
+            "id":21,
+            "idsVersions":[
+                13
+            ],
+            "name": "Pure Metal Silver",
+            "category": "Metálica",
+            "image": "corPureMetalSilver.jfif"
+        },
+        {
+            "id":22,
+            "idsVersions":[
+                13
+            ],
+            "name": "Preto Azurite",
+            "category": "Metálica",
+            "image": "corPretoAzurite.jfif"
+        },
+        {
+            "id":23,
+            "idsVersions":[
+                13
+            ],
+            "name": "Branco Brilhante",
+            "category": "Metálica",
+            "image": "corBrancoBrilhante.jfif"
+        },
+        {
+            "id":24,
+            "idsVersions":[
+                13
+            ],
+            "name": "Preto Rubi",
+            "category": "Metálica",
+            "image": "corPretoRubi.jfif"
+        },
+        {
+            "id":25,
+            "idsVersions":[
+                13
+            ],
+            "name": "Moonstone",
+            "category": "Metálica",
+            "image": "corMoonstone.jfif"
+        },
+        {
+            "id":26,
+            "idsVersions":[
+                13
+            ],
+            "name": "Marrom Almadin",
+            "category": "Metálica",
+            "image": "corMarromAlmadin.jfif"
+        },
+        {
+            "id":27,
+            "idsVersions":[
+                13
+            ],
+            "name": "Vermelho Aventurine",
+            "category": "Metálica",
+            "image": "corVermelhoAventurine.jfif"
+        },
+        {
+            "id":28,
+            "idsVersions":[
+                13
+            ],
+            "name": "Frozen Dark Brown",
+            "category": "BMW Individual",
+            "image": "corFrozenDarkBrown.jfif"
+        },
+        {
+            "id":29,
+            "idsVersions":[
+                13
+            ],
+            "name": "Frozen Arctic Grey",
+            "category": "BMW Individual",
+            "image": "corFrozenArcticGrey.jfif"
+        },
+        {
+            "id":30,
+            "idsVersions":[
+                17
+            ],
+            "name": "Cinza Space",
+            "category": "Metálica",
+            "image": "corCinzaSpace.jfif"
+        },
+        {
+            "id":31,
+            "idsVersions":[
+                17
+            ],
+            "name": "Vermelho Flamenco",
+            "category": "Metálica",
+            "image": "corVermelhoFlamenco.jfif"
+        },
+        {
+            "id":32,
+            "idsVersions":[
+                18, 19
+            ],
+            "name": "Azul Marina Bay",
+            "category": "Metálica",
+            "image": "corAzulMarinaBay.jfif"
+        },
+        {
+            "id":33,
+            "idsVersions":[
+                18, 19
+            ],
+            "name": "Cinza Donington",
+            "category": "Metálica",
+            "image": "corCinzaDonington.jfif"
+        },
+        {
+            "id":34,
+            "idsVersions":[
+                20, 21
+            ],
+            "name": "Branco Capparis com detalhes em BMW i Blue",
+            "category": "Sólida",
+            "image": "corBrancoCapparis.jfif"
+        },
+        {
+            "id":35,
+            "idsVersions":[
+                20, 21, 22
+            ],
+            "name": "Prata Ionic com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corPrataIonic.jfif"
+        },
+        {
+            "id":36,
+            "idsVersions":[
+                20, 21
+            ],
+            "name": "Cinza Arravani com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corCinzaArravani.jfif"
+        },
+        {
+            "id":37,
+            "idsVersions":[
+                20, 21
+            ],
+            "name": "Cinza Laurus com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corCinzaLaurus.jfif"
+        },
+        {
+            "id":38,
+            "idsVersions":[
+                20, 21
+            ],
+            "name": "Prata Andesit com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corPrataAndesit.jfif"
+        },
+        {
+            "id":39,
+            "idsVersions":[
+                22
+            ],
+            "name": "Branco Krystal com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corBrancoKrystal.jfif"
+        },
+        {
+            "id":40,
+            "idsVersions":[
+                22
+            ],
+            "name": "Cinza Sophisto com detalhes em BMW i Blue",
+            "category": "Metálica",
+            "image": "corCinzaSophistoIblue.jfif"
+        }
+    ],
+    "optionals" : [
+        {
+            "id":1,
+            "idsVersions":[
+                1, 2
+            ],
+            "name": "Volante esportivo em couro",
+            "category": "Conforto",
+            "image": "optVolanteCouro.jfif",
+            "price": ""
+        },
+        {
+            "id":2,
+            "idsVersions":[
+                1, 2, 3, 4, 20, 21
+            ],
+            "name": "Tapetes em veludo",
+            "category": "Conforto",
+            "image": "optTapetesVeludo.jfif",
+            "price": ""
+        },
+        {
+            "id":3,
+            "idsVersions":[
+                1, 2, 3, 4
+            ],
+            "name": "Bancos dianteiros esportivos",
+            "category": "Conforto",
+            "image": "optBancosDiantEsportivos.jfif",
+            "price": ""
+        },
+        {
+            "id":4,
+            "idsVersions":[
+                1, 2, 3, 4
+            ],
+            "name": "Pacote de luzes de conveniência",
+            "category": "Conforto",
+            "image": "optPctLuzesConv.jfif",
+            "price": ""
+        },
+        {
+            "id":5,
+            "idsVersions":[
+                1, 2, 3, 4
+            ],
+            "name": "Conexão wireless para Bluetooth e interface USB",
+            "category": "Conectividade",
+            "image": "optConoBluetoothUSB.jpg",
+            "price": ""
+        },
+        {
+            "id":6,
+            "idsVersions":[
+                1, 2
+            ],
+            "name": "CD-Player",
+            "category": "Sistema de som",
+            "image": "optCdPlayer.jfif",
+            "price": ""
+        },
+        {
+            "id":7,
+            "idsVersions":[
+                1
+            ],
+            "name": "BMW Professional",
+            "category": "Sistema de som",
+            "image": "optBMWProfessional.jfif",
+            "price": ""
+        },
+        {
+            "id":8,
+            "idsVersions":[
+                1, 2, 3, 4, 20, 21, 22
+            ],
+            "name": "Segredo de roda",
+            "category": "Segurança",
+            "image": "optSegredoRoda.jfif",
+            "price": ""
+        },
+        {
+            "id":9,
+            "idsVersions":[
+                1, 2, 3, 4, 20, 21, 22
+            ],
+            "name": "Alarme",
+            "category": "Segurança",
+            "image": "optAlarme.jfif",
+            "price": ""
+        },
+        {
+            "id":10,
+            "idsVersions":[
+                1, 2, 3, 4
+            ],
+            "name": "Pneus BMW Star Marking com tecnologia Run-Flat",
+            "category": "Tecnologia",
+            "image": "optPneusStarMarking.jfif",
+            "price": ""
+        },
+        {
+            "id":11,
+            "idsVersions":[
+                1, 2, 3
+            ],
+            "name": "Sensor de estacionamento traseiro",
+            "category": "Tecnologia",
+            "image": "optSensorEstacionamentoTraseiro.jfif",
+            "price": ""
+        },
+        {
+            "id":12,
+            "idsVersions":[
+                1, 2, 3, 4, 20, 21, 22
+            ],
+            "name": "Controle de cruzeiro",
+            "category": "Tecnologia",
+            "image": "optControleCruzeiro.jfif",
+            "price": ""
+        },
+        {
+            "id":13,
+            "idsVersions":[
+                1, 2, 3
+            ],
+            "name": "Faróis de neblina em LED",
+            "category": "Tecnologia",
+            "image": "optFaroisNeblinaLED.jfif",
+            "price": ""
+        },
+        {
+            "id":14,
+            "idsVersions":[
+                1, 2, 3
+            ],
+            "name": "Faróis em LED",
+            "category": "Tecnologia",
+            "image": "optFaroisLED.jfif",
+            "price": ""
+        },
+        {
+            "id":15,
+            "idsVersions":[
+                1, 2, 3, 4, 20, 21, 22
+            ],
+            "name": "Kit de reparo de pneus",
+            "category": "Segurança",
+            "image": "optKitReparoPneus.jfif",
+            "price": ""
+        },
+        {
+            "id":16,
+            "idsVersions":[
+                2, 3, 4
+            ],
+            "name": "Câmera de ré",
+            "category": "Tecnologia",
+            "image": "optCameraRe.jfif",
+            "price": ""
+        },
+        {
+            "id":17,
+            "idsVersions":[
+                3, 4, 20, 21, 22
+            ],
+            "name": "Sistema de som Harman Kardon",
+            "category": "Sistema de som",
+            "image": "optSomHarmanKardon.jfif",
+            "price": ""
+        },
+        {
+            "id":18,
+            "idsVersions":[
+                2, 3, 4, 20, 21, 22
+            ],
+            "name": "Sistema de Navegação Professional",
+            "category": "Conectividade",
+            "image": "optSistemaNavegacaoProf.jfif",
+            "price": ""
+        },
+        {
+            "id":19,
+            "idsVersions":[
+                3, 4, 22
+            ],
+            "name": "Bancos dianteiros com ajustes elétricos",
+            "category": "Conforto",
+            "image": "optBancosDianteirosAjustesEl.jfif",
+            "price": ""
+        },
+        {
+            "id":20,
+            "idsVersions":[
+                3, 4, 20, 21, 22
+            ],
+            "name": "BMW TeleServices",
+            "category": "Conectividade",
+            "image": "optBMWTeleServices.jfif",
+            "price": ""
+        }
+    ]
+}
