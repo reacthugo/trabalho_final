@@ -1,20 +1,35 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import { Cars } from "../api/Cars";
+import { ModelCar } from "../Components/ModelCar";
 
 function ModelsView () {
 
-    function testModels(e){
-        Cars.getModels().then(
-          result => {
-            alert(JSON.stringify(result));
-          }
-        )
-      }
+    const [models, setModels] = useState([]);
+
+    useEffect(() => {
+        
+        const LoadModels = async () => {
+            setModels([]);
+            
+            Cars.getModels().then(
+                result => {
+                    setModels(result);
+                    console.log("Modelos de carros carregados com sucesso!");
+                }
+            )
+        }
+        
+        LoadModels();
+    }, []);
 
     return(
         <div>
             <h1>Modelos</h1>
-            <button  onClick={ event => testModels(event)}>Test Models JSON</button>
+            {models.map(model =>
+                <div>
+                    <ModelCar {...model} />
+                </div>
+            )}
         </div>
     )
 }

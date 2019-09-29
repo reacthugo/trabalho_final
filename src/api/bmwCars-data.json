@@ -61,8 +61,8 @@
             "name": "BMW M5",
             "image": "carM5.jpg",
             "price": 699950.00,
-            "description": "Criado para oferecer emoção e elegância. Mais potente do que nunca. A nova geração do BMW M5 é a afirmação da suprema excelência da engenharia e da condução inovadora e inteligente para o levar a uma dimensão inimaginável. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável.",
-            "fuelType": "Elétrico"
+            "description": "Criado para oferecer emoção e elegância. Repleto de tecnologias de topo que tornam a rotina do dia-a-dia mais segura e mais confortável.",
+            "fuelType": "Gasolina"
         },
         {
             "id": 9,
@@ -77,7 +77,7 @@
             "name": "BMW i8",
             "image": "carI8.jpg",
             "price": 649950.00,
-            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Mais sustentável devido à tecnologia BMW eDrive extremamente eficiente e aos materiais recicláveis presentes no interior, sem comprometer a dinâmica e a aparência esportiva. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade.",
+            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade.",
             "fuelType": "Híbrido"
         }
     ],
