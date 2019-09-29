@@ -1,1 +1,1 @@
-export const ADD_MODEL = "ADD_MODEL";
+export const SELECT_MODEL = "SELECT_MODEL";

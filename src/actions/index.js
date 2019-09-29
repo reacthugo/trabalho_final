@@ -1,6 +1,6 @@
-import { ADD_MODEL } from './actionTypes';
+import { SELECT_MODEL } from './actionTypes';
 
-export const addModel = value => ({
-    type: ADD_MODEL,
+export const selectModel = value => ({
+    type: SELECT_MODEL,
     model: value
   });
