@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { selectModel } from '../actions';
+import { setModel } from '../actions';
 import { Cars } from "../api/Cars";
 import { ModelCar } from "../Components/ModelCar";
 import { Link } from "react-router-dom";
@@ -27,8 +27,8 @@ function ModelsView (props) {
     }, []);
 
     function handleBtnSelectModel(e, modelSel){
-        props.selectModel(modelSel);
-      }
+        props.setModel(modelSel);
+    }
 
     return(
         <div>
@@ -53,10 +53,10 @@ function ModelsView (props) {
 }
 
 const mapStateToProps = store => ({
-    model: store.modelState.model
+    model: store.carState.model
   });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators({ selectModel }, dispatch);
+  bindActionCreators({ setModel }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(ModelsView);

@@ -1,8 +1,8 @@
-import { modelReducer } from './modelReducer';
+import { carReducer } from './carReducer';
 //import { OtherReducer } from './otherReducer';
 import { combineReducers } from 'redux';
 
 export const Reducers = combineReducers({
-  modelState: modelReducer//,
+  carState: carReducer//,
   //otherState: otherReducer
 });
