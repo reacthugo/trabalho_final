@@ -1,8 +1,9 @@
-import { SET_MODEL, SET_VERSION } from '../actions/actionTypes';
+import { SET_MODEL, SET_VERSION, SET_COLOR } from '../actions/actionTypes';
 
 const initialState = {
     model: null,
-    version: null
+    version: null,
+    color: null
   };
 
   export const carReducer = (state = initialState, action) => {
@@ -22,6 +23,14 @@ const initialState = {
         return {
           ...state,
           version: action.version
+        };
+      case SET_COLOR:
+        console.log("Salvou na store a cor selecionada (id = " + action.color.id + ")");
+        //alert(JSON.stringify(state.color))
+        //alert(JSON.stringify(action.color))
+        return {
+          ...state,
+          color: action.color
         };
       default:
         return state;
