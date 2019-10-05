@@ -1,4 +1,4 @@
-import { SET_MODEL, SET_VERSION, SET_COLOR } from './actionTypes';
+import { SET_MODEL, SET_VERSION, SET_COLOR, ADD_OPTIONAL, REMOVE_OPTIONAL } from './actionTypes';
 
 export const setModel = value => ({
     type: SET_MODEL,
@@ -13,4 +13,14 @@ export const setModel = value => ({
   export const setColor = value => ({
     type: SET_COLOR,
     color: value
+  });
+
+  export const addOptional = value => ({
+    type: ADD_OPTIONAL,
+    optional: value
+  });
+
+  export const removeOptional = value => ({
+    type: REMOVE_OPTIONAL,
+    optional: value
   });

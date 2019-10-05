@@ -1,9 +1,10 @@
-import { SET_MODEL, SET_VERSION, SET_COLOR } from '../actions/actionTypes';
+import { SET_MODEL, SET_VERSION, SET_COLOR, ADD_OPTIONAL, REMOVE_OPTIONAL } from '../actions/actionTypes';
 
 const initialState = {
     model: null,
     version: null,
-    color: null
+    color: null,
+    optionals: []
   };
 
   export const carReducer = (state = initialState, action) => {
@@ -40,6 +41,20 @@ const initialState = {
         return {
           ...state,
           color: action.color
+        };
+      case ADD_OPTIONAL:
+        console.log("Adicionou na store o opcional de id = " + action.optional.id);
+        //alert(JSON.stringify(state.optionals))
+        //alert(JSON.stringify(action.optional))
+        return {
+          ...state,
+          optionals: [...state.optionals, action.optional] 
+        };
+      case REMOVE_OPTIONAL:
+          console.log("Removido da store o opcional de id = " + action.optional.id);
+        return {
+          ...state,
+          optionals: state.optionals.filter(opt => opt.id !== action.optional.id)
         };
       default:
         return state;

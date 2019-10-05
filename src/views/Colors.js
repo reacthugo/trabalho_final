@@ -25,7 +25,7 @@ function ColorsView (props) {
     }
     
     if(version !== null && version.id !== null)
-    LoadColors();
+      LoadColors();
   }, [version]);
 
   function handleBtnSelectColor(e, colorSel){
