@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { setModel } from '../actions';
+import { setModel, setVersion, setColor } from '../actions';
 import { Cars } from "../api/Cars";
 import { ModelCar } from "../Components/ModelCar";
 import { Link } from "react-router-dom";
@@ -27,7 +27,13 @@ function ModelsView (props) {
     }, []);
 
     function handleBtnSelectModel(e, modelSel){
-        props.setModel(modelSel);
+        if(props.model === null || props.model.id !== modelSel.id){
+            props.setModel(modelSel);
+            props.setVersion(null);
+            props.setColor(null);
+        }
+        else
+            console.log("Modelo de carro selecionado já está store");
     }
 
     return(
@@ -57,6 +63,6 @@ const mapStateToProps = store => ({
   });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators({ setModel }, dispatch);
+  bindActionCreators({ setModel, setVersion, setColor }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(ModelsView);

@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { setVersion } from '../actions';
+import { setVersion, setColor } from '../actions';
 import { Cars } from "../api/Cars";
 import { VersionCar } from "../Components/VersionCar";
 import { Link } from "react-router-dom";
@@ -29,7 +29,12 @@ function VersionsView (props) {
   }, [model]);
 
   function handleBtnSelectVersion(e, versionSel){
-    props.setVersion(versionSel);
+    if(props.version === null || props.version.id !== versionSel.id){
+      props.setVersion(versionSel);
+      props.setColor(null);
+    }
+    else
+        console.log("Versão de carro selecionada já está store");
   }
 
   return(
@@ -65,6 +70,6 @@ const mapStateToProps = store => ({
 });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators({ setVersion }, dispatch);
+  bindActionCreators({ setVersion, setColor }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(VersionsView);
