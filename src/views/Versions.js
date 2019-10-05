@@ -50,8 +50,8 @@ function VersionsView (props) {
               </Link>
           </div>
           : null}
-        {versions.map(version =>
-            <div>
+        {versions.map((version, i) =>
+            <div key={i}>
                 <VersionCar 
                     {...version} 
                     onSelectVersion = {handleBtnSelectVersion} />

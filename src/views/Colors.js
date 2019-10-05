@@ -50,8 +50,8 @@ function ColorsView (props) {
               </Link>
           </div>
           : null}
-        {colors.map(color =>
-            <div>
+        {colors.map((color, i) =>
+            <div key={i}>
                 <ColorCar 
                     {...color} 
                     onSelectColor = {handleBtnSelectColor} />

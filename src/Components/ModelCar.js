@@ -16,7 +16,7 @@ export const ModelCar = (model) => {
                     float: left;
                     margin: 10px;
                     width: 350px;
-                    height: 400px;
+                    height: 350px;
                     background: white;
                 }
                 .modelCar:hover {

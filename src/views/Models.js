@@ -47,11 +47,12 @@ function ModelsView (props) {
                     </Link>
                 </div>
                 : null}
-            {models.map(model =>
-                <div>
+            {models.map((model, i) =>
+                <div key={i}>
                     <ModelCar 
                         {...model} 
-                        onSelectModel = {handleBtnSelectModel} />
+                        onSelectModel = {handleBtnSelectModel}
+                         />
                 </div>
             )}
         </div>

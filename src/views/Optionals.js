@@ -43,8 +43,8 @@ function OptionalsView (props) {
         <Link to='/resume'>
             <h5>Finalizar seleção</h5>
         </Link>
-        {optionals.map(optional =>
-            <div>
+        {optionals.map((optional, i) =>
+            <div key={i}>
                 <OptionalCar 
                     {...optional} 
                     onSelectOptional = {handleBtnSelectOptional} />
