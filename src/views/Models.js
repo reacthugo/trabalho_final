@@ -38,12 +38,11 @@ function ModelsView (props) {
 
     return(
         <div>
-            <h1>Escolha um modelo de carro</h1>
+            <h2>Escolha um modelo de carro</h2>
             {props.model ? 
                 <div>
-                    <h5>Carro Selecionado: {props.model.name}</h5>
                     <Link to='/versions'>
-                        <h5>Avançar para selecionar a versão</h5>
+                        <span className="goSelVersion">Próximo passo >></span>
                     </Link>
                 </div>
                 : null}
@@ -52,9 +51,18 @@ function ModelsView (props) {
                     <ModelCar 
                         {...model} 
                         onSelectModel = {handleBtnSelectModel}
-                         />
+                        selected = {props.model === null ? false : (props.model.id === model.id ? true : false)}  />
                 </div>
             )}
+
+            <style jsx>{`
+                .goSelVersion {
+                    margin-left: 15px;
+                    padding: 5px;
+                    font-size: 20x;
+                    text-decoration: none;
+                }
+            `}</style>
         </div>
     )
 }

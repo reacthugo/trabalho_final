@@ -5,7 +5,7 @@
             "name": "BMW Série 1 Hatch",
             "image": "carSerie1.jpg",
             "price": 165950.00,
-            "description": "BMW Série 1, um veículo ágil e compacto com uma aparência esportiva e moderna.",
+            "description": "BMW Série 1, um veículo ágil e compacto com uma aparência esportiva e moderna. Isso é o Puro Prazer de Dirigir.",
             "fuelType": "Gasolina"
         },
         {
@@ -13,7 +13,7 @@
             "name": "BMW Série 3 Sedã",
             "image": "carSerie3.jpg",
             "price": 195950.00,
-            "description": "Nem bem caiu na estrada o novo BMW Série 3 já está deixando tudo para trás, incluindo convenções e expectativas. Impulsionando o verdadeiro sedã esportivo há motores ainda mais potentes e eficientes.",
+            "description": "Impulsionando o verdadeiro sedã esportivo há motores ainda mais potentes e eficientes.",
             "fuelType": "Gasolina"
         },
         {
@@ -21,7 +21,7 @@
             "name": "BMW Série 4 Cabrio",
             "image": "carSerie4.jpg",
             "price": 320950.00,
-            "description": "Com a capota rígida recolhida ou fechada, o BMW Série 4 Cabrio está pronto para surpreender o mundo. O design esportivo atrai todos os olhares.",
+            "description": "Com a capota rígida recolhida ou fechada, o BMW Série 4 Cabrio está pronto para surpreender o mundo.",
             "fuelType": "Gasolina"
         },
         {
@@ -29,7 +29,7 @@
             "name": "BMW Série 5 Sedã",
             "image": "carSerie5.jpg",
             "price": 332950.00,
-            "description": "O BMW Série 5 é a personificação do sedã executivo. Graças à sua imagem dinâmica e elegante, o BMW Série 5 cumpre de forma absolutamente convincente todas as exigências de um veículo da sua categoria: estética esportiva e Prazer de Dirigir com tecnologia de ponta.",
+            "description": "O sedã executivo ideal, a BMW Série 5 mostra uma perfeita combinação entre dinâmica na estrada e elegância.",
             "fuelType": "Gasolina"
         },
         {
@@ -37,7 +37,7 @@
             "name": "BMW Série 7 Sedã",
             "image": "carSerie7.jpg",
             "price": 774950.00,
-            "description": "Com o novo BMW Série 7 criamos a próxima geração do luxo, fruto de inovações pioneiras, conforto, design contemporâneo e uma dinâmica altamente eficiente.",
+            "description": "Com o BMW Série 7 criamos a próxima geração do luxo, fruto de inovações pioneiras, conforto, design contemporâneo e uma dinâmica altamente eficiente.",
             "fuelType": "Gasolina"
         },
         {
@@ -45,7 +45,7 @@
             "name": "BMW X1",
             "image": "carX1.jpg",
             "price": 191950.00,
-            "description": "O BMW X1 vai além das soluções rotineiras. Desde o primeiro olhar fica claro que este é um modelo X de alma e coração: os para-choques compactos e a longa distância entre eixos típicos de um SAV (Sports Activity Vehicle) definem o exterior.",
+            "description": "Excelente desempenho em qualquer trajeto: o BMW X1 combina as características de um SAV com a dinâmica e a esportividade do estilo de vida urbano.",
             "fuelType": "Gasolina"
         },
         {
@@ -53,7 +53,7 @@
             "name": "BMW X6",
             "image": "carX6.jpg",
             "price": 473950.00,
-            "description": "Potente e claramente esportivo. O BMW X6 transcende todos os limites, apresentando a presença típica dos modelos BMW X e a esportividade dos coupés.",
+            "description": "Potente e claramente esportivo. O BMW X6 apresenta a presença típica dos modelos BMW X e a esportividade dos coupés.",
             "fuelType": "Gasolina"
         },
         {
@@ -69,7 +69,7 @@
             "name": "BMW i3",
             "image": "carI3.jpg",
             "price": 205950.00,
-            "description": "O BMW i3 está repleto de tecnologias inovadoras para sua mobilidade cotidiana com toda a segurança e eficiência. A bateria do novo BMW i3 REX permite uma autonomia de até 180km (385km no ciclo NEDC) para você explorar novos caminhos dentro da cidade com estilo.",
+            "description": "O BMW i3 está repleto de tecnologias inovadoras para sua mobilidade cotidiana com toda a segurança e eficiência.",
             "fuelType": "Elétrico"
         },
         {
@@ -77,7 +77,7 @@
             "name": "BMW i8",
             "image": "carI8.jpg",
             "price": 649950.00,
-            "description": "Um automóvel superesportivo com um conceito inovador. Mais eficiente graças à construção inteligente de baixo peso em fibra de carbono e ao design aerodinâmico. Combina perfeitamente o Prazer de Dirigir e a sustentabilidade.",
+            "description": "O BMW i8 é um veículo híbrido PlugIn que combina as vantagens de um motor elétrico inovador com as tecnologias dos motores de combustão.",
             "fuelType": "Híbrido"
         }
     ],
