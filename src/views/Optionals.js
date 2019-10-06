@@ -50,6 +50,7 @@ function OptionalsView (props) {
       {version ? 
         <div>
         <h2>Escolha os opcionais para o carro</h2>
+        <h4>Quantidade selecionada: {props.optionals.length}</h4>
         <Link to='/resume'>
             <span className="finishSel">Finalizar seleção</span>
         </Link>

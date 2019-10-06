@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div>
+      <img className="logoBMW" src={require("./assets/images/bmw-logo.png")} alt="N/A" />
       <h1>Monte o seu BMW</h1>
 
       <ul>
@@ -38,6 +39,12 @@ function App() {
           .itemMenuLink {
             text-decoration: none;
           } 
+          .logoBMW {
+            height: 100px;
+            width: 100px;
+            float: left;
+            margin: 5px;
+        }
       `}</style>
     </div>
   );
