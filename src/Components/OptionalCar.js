@@ -1,4 +1,5 @@
 import React from 'react';
+import { ConvertToMoneyNumber } from "../Utils";
 
 export const OptionalCar = (optional) => {
     
@@ -6,7 +7,7 @@ export const OptionalCar = (optional) => {
         <button className={optional.selected ? " optionalCar optionalCarSelected" : " optionalCar optionalCarNoSelected"} onClick={ event => optional.onSelectOptional(event, optional)}>
             <img className="optionalImg" src={require(`../assets/images/${optional.image}`)} alt="N/A" />
             <h5>{optional.name} ({optional.category})</h5>
-            <h6>Preço R$ {(optional.price).toFixed(2)}</h6>
+            <h6>Preço R$ {ConvertToMoneyNumber(optional.price)}</h6>
             {optional.selected ?
                 <img className="imgSelected" src={require("../assets/images/selectedItem.png")} alt="N/A" />
                 : null
