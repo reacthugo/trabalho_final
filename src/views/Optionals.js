@@ -19,14 +19,24 @@ function OptionalsView (props) {
       Cars.getOptionalsByVersion(version.id).then(
           result => {
             setOptionals(result);
-              console.log("Os opcionais disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
+            console.log("Os opcionais disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
+
+            if(props.optionals.length > 0){
+
+              props.optionals.map(optStore => {
+                if(result.find(opt => opt.id === optStore.id)  === undefined)
+                  props.removeOptional(optStore);
+                  
+                return true;
+              });
+            }
           }
       )
     }
     
     if(version !== null && version.id !== null)
       LoadOptionals();
-  }, [version]);
+  }, [version, props]);
 
   function handleBtnSelectOptional(e, optionalSel){
     if(props.optionals.find(opt => opt.id === optionalSel.id) === undefined)

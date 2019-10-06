@@ -19,7 +19,7 @@ export const ColorCar = (color) => {
                     float: left;
                     margin: 10px;
                     width: 200px;
-                    height: 210px;
+                    height: 230px;
                 }
                 .colorCar:hover {
                     border: 3px solid black;

@@ -19,14 +19,20 @@ function ColorsView (props) {
       Cars.getColorsByVersion(version.id).then(
           result => {
             setColors(result);
-              console.log("As cores disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
+            console.log("As cores disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
+
+            // se já existir uma cor selecionada, só a mantemos se a cor existir para a versão corrente do carro
+            if(props.color !== null){
+              if(result.find(col => col.id === props.color.id) === undefined)
+                props.setColor(null);
+            }
           }
       )
     }
     
     if(version !== null && version.id !== null)
       LoadColors();
-  }, [version]);
+  }, [version, props]);
 
   function handleBtnSelectColor(e, colorSel){
     

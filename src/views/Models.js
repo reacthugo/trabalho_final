@@ -30,7 +30,6 @@ function ModelsView (props) {
         if(props.model === null || props.model.id !== modelSel.id){
             props.setModel(modelSel);
             props.setVersion(null);
-            props.setColor(null);
         }
         else
             console.log("Modelo de carro selecionado já está store");

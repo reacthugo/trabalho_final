@@ -31,7 +31,6 @@ function VersionsView (props) {
   function handleBtnSelectVersion(e, versionSel){
     if(props.version === null || props.version.id !== versionSel.id){
       props.setVersion(versionSel);
-      props.setColor(null);
     }
     else
         console.log("Versão de carro selecionada já está store");
