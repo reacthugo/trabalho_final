@@ -1,7 +1,7 @@
 import React, {useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { setVersion, setColor } from '../actions';
+import { setVersion, setColor, removeOptional } from '../actions';
 import { Cars } from "../api/Cars";
 import { VersionCar } from "../Components/VersionCar";
 import { Link } from "react-router-dom";
@@ -31,6 +31,23 @@ function VersionsView (props) {
   function handleBtnSelectVersion(e, versionSel){
     if(props.version === null || props.version.id !== versionSel.id){
       props.setVersion(versionSel);
+      
+      // se já existir uma cor selecionada, só a mantemos se a cor existir para a versão corrente do carro
+      if(props.color !== null){
+        if(props.color.idsVersions.find(id => id === versionSel.id) === undefined){
+          props.setColor(null);
+        }
+      }
+
+      // se já existir opcionais, só mantemos os opcionais que existem para a versão corrente do carro
+      if(props.optionals.length > 0){
+        props.optionals.map(optStore => {
+          if(optStore.idsVersions.find(id => id === versionSel.id) === undefined)
+            props.removeOptional(optStore);
+            
+          return true;
+        });
+      }
     }
     else
         console.log("Versão de carro selecionada já está store");
@@ -74,10 +91,12 @@ function VersionsView (props) {
 
 const mapStateToProps = store => ({
   model: store.carState.model,
-  version: store.carState.version
+  version: store.carState.version,
+  color: store.carState.color,
+  optionals: store.carState.optionals
 });
 
 const mapDispatchToProps = dispatch =>
-  bindActionCreators({ setVersion, setColor }, dispatch);
+  bindActionCreators({ setVersion, setColor, removeOptional }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(VersionsView);

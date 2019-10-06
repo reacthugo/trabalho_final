@@ -1,8 +1,33 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { ApplicationRoutes } from "./ApplicationRoutes";
+import { ConvertToMoneyNumber } from "./Utils";
+import { connect } from 'react-redux';
 
-function App() {
+function App(props) {
+
+  const [totalPrice, setTotalPrice] = useState(0.00);
+
+  useEffect(() => {
+    
+    let sumPrice = 0.00;
+
+    if(props.version == null){
+      if(props.model != null)
+        sumPrice = props.model.price;
+    }
+    else{
+      sumPrice = props.version.price;
+    }
+
+    if(props.color != null)
+      sumPrice += props.color.price;
+
+    if(props.optionals.length > 0)
+      props.optionals.map(opt => sumPrice += opt.price);
+      
+    setTotalPrice(sumPrice);
+  }, [props]);
 
   return (
     <div>
@@ -23,7 +48,7 @@ function App() {
             <Link className="itemMenuLink" to="/optionals">Opcionais</Link>
           </li>
           <li className="itemMenu"> 
-            <Link className="itemMenuLink" to="/resume">Resumo</Link>
+            <Link className="itemMenuLink" to="/resume">Resumo <span>(Valor Total: R$ {ConvertToMoneyNumber(totalPrice)})</span></Link>
           </li>
         </ul>
 
@@ -50,4 +75,11 @@ function App() {
   );
 }
 
-export default App;
+const mapStateToProps = store => ({
+  model: store.carState.model,
+  version: store.carState.version,
+  color: store.carState.color,
+  optionals: store.carState.optionals
+});
+
+export default connect(mapStateToProps)(App);

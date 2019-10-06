@@ -20,19 +20,13 @@ function ColorsView (props) {
           result => {
             setColors(result);
             console.log("As cores disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
-
-            // se já existir uma cor selecionada, só a mantemos se a cor existir para a versão corrente do carro
-            if(props.color !== null){
-              if(result.find(col => col.id === props.color.id) === undefined)
-                props.setColor(null);
-            }
           }
       )
     }
     
     if(version !== null && version.id !== null)
       LoadColors();
-  }, [version, props]);
+  }, [version]);
 
   function handleBtnSelectColor(e, colorSel){
     
@@ -81,7 +75,7 @@ function ColorsView (props) {
 
 const mapStateToProps = store => ({
   version: store.carState.version,
-  color: store.carState.color,
+  color: store.carState.color
 });
 
 const mapDispatchToProps = dispatch =>

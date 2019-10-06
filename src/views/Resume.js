@@ -3,7 +3,7 @@ import React from 'react';
 function ResumeView () {
     return(
         <div>
-            <h1>Resumo</h1>
+            <h2>Resumo</h2>
         </div>
     )
 }

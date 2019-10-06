@@ -20,23 +20,13 @@ function OptionalsView (props) {
           result => {
             setOptionals(result);
             console.log("Os opcionais disponíveis da versão do carro selecionado (id = " + version.id.toString() + ") foram carregadas com sucesso!");
-
-            if(props.optionals.length > 0){
-
-              props.optionals.map(optStore => {
-                if(result.find(opt => opt.id === optStore.id)  === undefined)
-                  props.removeOptional(optStore);
-                  
-                return true;
-              });
-            }
           }
       )
     }
     
     if(version !== null && version.id !== null)
       LoadOptionals();
-  }, [version, props]);
+  }, [version]);
 
   function handleBtnSelectOptional(e, optionalSel){
     if(props.optionals.find(opt => opt.id === optionalSel.id) === undefined)
@@ -80,7 +70,7 @@ function OptionalsView (props) {
 
 const mapStateToProps = store => ({
   version: store.carState.version,
-  optionals: store.carState.optionals,
+  optionals: store.carState.optionals
 });
 
 const mapDispatchToProps = dispatch =>
