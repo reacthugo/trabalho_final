@@ -39,20 +39,30 @@ function OptionalsView (props) {
     <div>
       {version ? 
         <div>
-        <h1>Escolha os opcionais para o carro</h1>
+        <h2>Escolha os opcionais para o carro</h2>
         <Link to='/resume'>
-            <h5>Finalizar seleção</h5>
+            <span className="finishSel">Finalizar seleção</span>
         </Link>
         {optionals.map((optional, i) =>
             <div key={i}>
                 <OptionalCar 
                     {...optional} 
-                    onSelectOptional = {handleBtnSelectOptional} />
+                    onSelectOptional = {handleBtnSelectOptional} 
+                    selected = {props.optionals === null ? false : (props.optionals.find(opt => opt.id === optional.id) === undefined ? false : true)}  />
             </div>
         )}
           </div>
-          : <h1>É necessário escolher primeiramente uma versão de carro</h1>
+          : <h2>É necessário escolher primeiramente uma versão de carro</h2>
       }
+
+      <style jsx>{`
+            .finishSel {
+                margin-left: 15px;
+                padding: 5px;
+                font-size: 20x;
+                text-decoration: none;
+            }
+        `}</style>
     </div>
   )
 }

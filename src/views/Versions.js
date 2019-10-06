@@ -41,12 +41,11 @@ function VersionsView (props) {
     <div>
       {model ? 
         <div>
-        <h1>Escolha uma versão do carro</h1>
+        <h2>Escolha uma versão do carro</h2>
         {props.version ? 
           <div>
-              <h5>Versão Selecionada: {props.version.name}</h5>
               <Link to='/colors'>
-                  <h5>Avançar para selecionar a cor</h5>
+                  <span className="goSelColor">Próximo passo >></span>
               </Link>
           </div>
           : null}
@@ -54,12 +53,22 @@ function VersionsView (props) {
             <div key={i}>
                 <VersionCar 
                     {...version} 
-                    onSelectVersion = {handleBtnSelectVersion} />
+                    onSelectVersion = {handleBtnSelectVersion} 
+                    selected = {props.version === null ? false : (props.version.id === version.id ? true : false)}  />
             </div>
         )}
          </div>
-         : <h1>É necessário escolher primeiramente um modelo de carro</h1>
+         : <h2>É necessário escolher primeiramente um modelo de carro</h2>
       }
+
+      <style jsx>{`
+          .goSelColor {
+              margin-left: 15px;
+              padding: 5px;
+              font-size: 20x;
+              text-decoration: none;
+          }
+      `}</style>
     </div>
   )
 }

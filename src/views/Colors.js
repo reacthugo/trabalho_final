@@ -41,12 +41,11 @@ function ColorsView (props) {
     <div>
       {version ? 
         <div>
-        <h1>Escolha uma cor para o carro</h1>
+        <h2>Escolha uma cor para o carro</h2>
         {props.color ? 
           <div>
-              <h5>Cor Selecionada: {props.color.name}</h5>
               <Link to='/optionals'>
-                  <h5>Avançar para selecionar os opcionais</h5>
+                <span className="goSelOptionals">Próximo passo >></span>
               </Link>
           </div>
           : null}
@@ -54,12 +53,22 @@ function ColorsView (props) {
             <div key={i}>
                 <ColorCar 
                     {...color} 
-                    onSelectColor = {handleBtnSelectColor} />
+                    onSelectColor = {handleBtnSelectColor} 
+                    selected = {props.color === null ? false : (props.color.id === color.id ? true : false)}  />
             </div>
         )}
           </div>
-          : <h1>É necessário escolher primeiramente uma versão de carro</h1>
+          : <h2>É necessário escolher primeiramente uma versão de carro</h2>
       }
+
+      <style jsx>{`
+          .goSelOptionals {
+              margin-left: 15px;
+              padding: 5px;
+              font-size: 20x;
+              text-decoration: none;
+          }
+      `}</style>
     </div>
   )
 }
