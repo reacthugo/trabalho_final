@@ -51,15 +51,11 @@ export const carReducer = (state = initialState, action) => {
         optionals: [...state.optionals, action.optional]
       };
     case REMOVE_OPTIONAL:
-      if (state.optionals.find(p => p.id === action.optional.id)) {
         console.log("Removido da store o opcional de id = " + action.optional.id);
         return {
           ...state,
           optionals: state.optionals.filter(opt => opt.id !== action.optional.id)
         };
-      } else {
-        console.log("Optional não localizado para remoção");
-      }
     default:
       return state;
   }

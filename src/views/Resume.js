@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { Link } from "react-router-dom";
@@ -83,7 +83,6 @@ function ResumeView(props) {
                 .center a:hover {
                     color: green;
                 }       
-
 
                 .carro img {
                 display: block;

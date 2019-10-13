@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => (
     <header id="main-header">
         <img className="logoBMW" src={require("../assets/images/bmw-logo.png")} alt="N/A" />
         <h1>Monte o seu BMW</h1>
-
         <style jsx>{`
             #main-header{
                 width: 100%;
@@ -23,7 +23,7 @@ const Header = () => (
                 width: 100px;
                 float: left;
                 margin: 5px;
-            }              
+            } 
             `}</style>
     </header>
 );

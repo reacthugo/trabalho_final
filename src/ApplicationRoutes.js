@@ -5,6 +5,7 @@ const Versions = lazy(() => import("./views/Versions"));
 const Colors = lazy(() => import("./views/Colors"));
 const Optionals = lazy(() => import("./views/Optionals"));
 const Resume = lazy(() => import("./views/Resume"));
+const About = lazy(() => import("./views/About"));
 
 export const ApplicationRoutes = () => (
   <>
@@ -23,5 +24,8 @@ export const ApplicationRoutes = () => (
     <Suspense fallback={<h1>Carregando o resumo final da seleção...</h1>}>
         <Route path="/resume" exact component={Resume} />
     </Suspense>
+    <Suspense fallback={<h1>Carregando o resumo final da seleção...</h1>}>
+        <Route path="/about" exact component={About} />
+    </Suspense>    
   </>
 );

@@ -33,6 +33,8 @@ function App(props) {
   return (
     <div>
       <Header />
+      
+      <p className="about"><Link className="itemMenuLink" to="/about">Trabalho Final React</Link></p>
 
       <div className="menu-center">
         <ul>
@@ -108,6 +110,27 @@ function App(props) {
           .menu-center a:active {
               color: blue;
           }
+
+          .about{
+                font-size: 15px;
+                font-weight: bold;
+                background: black;
+                text-align: center;
+                margin:0px;
+                padding: 0px;
+            }       
+
+            .about a:link{
+                color: #fff;
+            }      
+
+            .about a:visited{
+                color: #fff;
+            }     
+
+            .about a:hover{
+                color: red;
+            }   
       `}</style>
     </div>
   );
