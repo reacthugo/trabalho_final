@@ -20,21 +20,21 @@ function ResumeView(props) {
 
             <h2 className="titulo">Resumo</h2>
             {props.model ?
-                <div>
+                <div className="carro">
                     <img
                         width="200"
                         src={require(`../assets/images/${props.model.image}`)}
                         alt=""
                     />
-                    <h3>Modelo: {props.model.name} ({props.model.fuelType})</h3>
-                    <h3>Versão: {props.version != null ? props.version.name : " :-( Falta selecionado a versão"}</h3>
+                    <p><b>Modelo:</b> {props.model.name} ({props.model.fuelType}) <b>Versão:</b> {props.version != null ? props.version.name : " :-( Falta selecionado a versão"}</p>
+
                     <img
                         width="200"
                         src={require(`../assets/images/${props.color.image}`)}
                         alt=""
                     />
-                    <h3>Cor: {props.color.name}</h3>
-                    <h3>Lista de Opcionais ({props.optionals.length})</h3>
+                    <p><b>Cor:</b> {props.color.name}</p>
+                    <p><b>Lista de Opcionais ({props.optionals.length}):</b></p>
 
                     <ul>
                         {props.optionals.map(optional => (
@@ -50,7 +50,7 @@ function ResumeView(props) {
             <style jsx>{`
                 .center{
                     width: 90%;
-                    margin: 0 auto;
+                    margin: 0 auto;                    
                 }
 
                 .titulo{
@@ -82,7 +82,48 @@ function ResumeView(props) {
 
                 .center a:hover {
                     color: green;
-                }          
+                }       
+
+
+.carro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carro li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.carro p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.carro button {
+  min-width: 150px;
+  max-width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  background: #f51717;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+.carro button:hover {
+  opacity: 0.7;
+}
+
             `}</style>
         </div>
     )

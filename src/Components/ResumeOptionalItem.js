@@ -1,4 +1,5 @@
 import React from 'react';
+import { ConvertToMoneyNumber } from "../Utils";
 
 const ResumeOptionalItem = ({ optional, onRemove }) => (
     <li key={optional.id}>
@@ -7,8 +8,8 @@ const ResumeOptionalItem = ({ optional, onRemove }) => (
             src={require(`../assets/images/${optional.image}`)}
             alt=""
         />
-        <p><strong>Product: </strong>{optional.name}</p>
-        <p><strong>Price: </strong>{optional.price}</p>
+        <p><strong>Nome: </strong>{optional.name}</p>
+        <p><strong>Price: </strong>R$ {ConvertToMoneyNumber(optional.price)}</p>
         <button onClick={ event => onRemove(event, optional)}>Remove</button>
     </li>
 );
