@@ -85,44 +85,44 @@ function ResumeView(props) {
                 }       
 
 
-.carro img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+                .carro img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                }
 
-.carro li {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  font-size: 18px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
+                .carro li {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                font-size: 18px;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                }
 
-.carro p{
-    font-size: 16px;
-    text-align: center;
-}
+                .carro p{
+                    font-size: 16px;
+                    text-align: center;
+                }
 
-.carro button {
-  min-width: 150px;
-  max-width: 150px;
-  padding: 5px;
-  border-radius: 5px;
-  border: 0;
-  background: #f51717;
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  margin: 0 auto;
-  display: block;
-}
-.carro button:hover {
-  opacity: 0.7;
-}
+                .carro button {
+                min-width: 150px;
+                max-width: 150px;
+                padding: 5px;
+                border-radius: 5px;
+                border: 0;
+                background: #f51717;
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                margin: 0 auto;
+                display: block;
+                }
+                .carro button:hover {
+                opacity: 0.7;
+                }
 
             `}</style>
         </div>
