@@ -45,7 +45,7 @@ function ColorsView (props) {
         {props.color ? 
           <div>
               <Link to='/optionals'>
-                <span className="goSelOptionals">Próximo passo >></span>
+                <span className="goSelOptionals">Próximo passo ></span>
               </Link>
           </div>
           : null}
@@ -64,9 +64,15 @@ function ColorsView (props) {
       <style jsx>{`
           .goSelOptionals {
               margin-left: 15px;
-              padding: 5px;
-              font-size: 20x;
               text-decoration: none;
+              white-space: nowrap;
+              display: inline-block;
+              border-radius: 5px;
+              padding: 10px 15px;
+              font-size: 20px;
+              color: #fff;
+              background-image: linear-gradient(#4f93ce,#285f8f);
+              border: 1px solid #285f8f;
           }
       `}</style>
     </div>
